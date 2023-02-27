@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: solid 2px;
+    border-color: brown;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 250px 0 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo {
+    height: 55px;
+    float: left;
+    padding-right: 60px;
+}
+
+#pil {
+    height: 40px;
+    padding-top: 10px;
+}
+
+nav a {
+    font-family: urbanist;
+    letter-spacing: 1px;
+    font-size: large;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    padding-bottom: 20px;
+}
+
+.button {
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 25px 10px 25px;
+    font-size: smaller;
+    letter-spacing: normal;
+}
+
+#cover {
+    width: 100%;
+}
